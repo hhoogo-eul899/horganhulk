@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HORGAN HULK MANAGEMENT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        h1, h2, p {
+            margin: 10px 0;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HORGAN HULK MANAGEMENT</h1>
+        <h2>UFB 1O5K-HULK</h2>
+    </header>
+    <div class="main-content">
+        <h3>Welcome to HORGAN HULK MANAGEMENT</h3>
+        <p>We specialize in the maintenance and management of motorcycles, ensuring they perform at their best on the road.</p>
+        <p>Our team of expert technicians is dedicated to providing top-notch service to keep your motorcycle running smoothly and efficiently.</p>
+        <p>Whether it's routine maintenance, repairs, or performance upgrades, we've got you covered.</p>
+        <p>Trust HORGAN HULK MANAGEMENT for all your motorcycle maintenance needs!</p>
+        <p><button><a  href="main.html" onclick="showLoadingMessage()">VIEW LOGS</a></button></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 horgan hulk the managementfrom lira city</p>
+    </footer>
+    <script>
+        function showLoadingMessage() {
+            var link = document.getElementById('viewLogsLink');
+            link.innerHTML = 'Loading...';
+
+            setTimeout(function() {
+                link.innerHTML = 'Ready';
+            }, 6000); // Adjust the delay time as needed (in milliseconds)
+        }
+    </script>
+</body>
+</html>
